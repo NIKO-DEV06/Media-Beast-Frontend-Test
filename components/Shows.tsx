@@ -2,9 +2,10 @@ import radioShowImage from "@/assets/radio-show.png";
 import youtubeChannelImage from "@/assets/youtube-channel.png";
 import merchandiseImage from "@/assets/merchandise.png";
 import Image from "next/image";
+import { ShowInterface } from "@/interfaces";
 
 const Shows = () => {
-  const shows = [
+  const shows: ShowInterface[] = [
     {
       id: 1,
       name: "BBC 1XTRA Radio Shows",
