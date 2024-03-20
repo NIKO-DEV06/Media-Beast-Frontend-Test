@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "apercu-regular": ["Apercu Regular", "sans-serif"],
+        "apercu-medium": ["Apercu Medium", "sans-serif"],
+        "apercu-bold": ["Apercu bold", "sans-serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

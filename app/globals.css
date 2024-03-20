@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Apercu Regular";
+  src: url("/fonts/apercu_regular_pro") format("opentype");
+}
+
+@font-face {
+  font-family: "Apercu Medium";
+  src: url("/fonts/apercu_medium_pro") format("opentype");
+}
+
+@font-face {
+  font-family: "Apercu Bold";
+  src: url("/fonts/apercu_bold_pro") format("opentype");
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -26,8 +41,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.background-img {
+  background-position: center calc(100% - 0rem);
+}
+
+.socials {
+  @apply text-white bg-[#3E3E3E] rounded-full p-[0.4rem];
 }
