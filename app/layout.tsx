@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="min-h-screen background-img bg-center bg-no-repeat md:pt-[3.5rem] md:pb-[3.5rem] pt-0 pb-[2.5rem] overflow-x-hidden text-white"
+        className="min-h-screen background-img bg-center bg-no-repeat md:pt-[3.5rem] md:pb-[3.5rem] pt-0 pb-[2.5rem] overflow-x-hidden text-white scroll-smooth"
         style={{
           backgroundImage: 'url("/bg.png")',
         }}
