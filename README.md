@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Emmanuel Ayeniko - Media Beast Frontend Test Challenge Project
 
-## Getting Started
+Welcome to my solution for the Media Beast Frontend Test Challenge Project! This project is a demonstration of utilizing Next.js, TypeScript, and Tailwind CSS to create a responsive and modern web application.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project aims to showcase my proficiency in frontend development by implementing a simple web application design. The application is built using Next.js, a React framework known for its simplicity and efficiency, TypeScript for type-safe JavaScript development, and Tailwind CSS for rapid UI development with utility-first CSS whilst ensuring that the design was accurately translated into a web page.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Responsive Design**: The application is designed to be responsive and compatible with various devices and screen sizes.
+- **Next.js**: Utilizing Next.js for server-side rendering and other performance optimizations.
+- **TypeScript**: Leveraging TypeScript for static typing, providing enhanced code quality and maintainability.
+- **Tailwind CSS**: Employing Tailwind CSS for styling, allowing for rapid development and easy customization.
+- **Component-Based Architecture**: The project follows a component-based architecture, organizing UI elements into reusable and modular components. This approach promotes code reusability, maintainability, and scalability.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+To run this project locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/NIKO-DEV06/Media-Beast-Frontend-Test.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```
 
-## Deploy on Vercel
+2. Start the development server by running the following command:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+### Links
+
+- [Solution Repository](https://github.com/NIKO-DEV06/Media-Beast-Frontend-Test)
+- [Live Site](https://emmanuel-media-beast-test.vercel.app/)
